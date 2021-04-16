@@ -1,4 +1,4 @@
-# non-local-means---Gausan-filter---imge-denoise using cuda
+# non local means - Gausan filter - imge denoise - using cuda
 
 Η κεντρική ιδέα του προβλήματος είναι η αποθορυβοποίηση εικόνων με Γκαουσιανο θόρυβο που
 δέχεται ως είσοδο, χρησιμοποιώντας τον αλγόριθμο non-local-mean. Το φίλτρο non-local-mean
