@@ -1,4 +1,5 @@
 # non local means - Gausan filter - image denoise - using cuda
+
 non local means - Gausan filter - image denoise - using cuda.
 
 Η κεντρική ιδέα του προβλήματος είναι η αποθορυβοποίηση εικόνων με Γκαουσιανο θόρυβο που
