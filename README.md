@@ -1,4 +1,4 @@
-#non-local-means---Gausan-filter---image-denoise
+# non-local-means---Gausan-filter---image-denoise
 
 non local means - Gausan filter - image denoise - using cuda.
 
