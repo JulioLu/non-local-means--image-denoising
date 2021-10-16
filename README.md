@@ -6,7 +6,7 @@ The main idea of this problem is to denoise images with Gaussian noise input, us
 # Serial implementation
 The denoise() function is called N * N times in main () where each time it accepts as
  an argument a pixel of the image with Gaussian noise and gradually through the weights w calculates and returns the corresponding pixel that will have the denoised image. 
--The "patch (..., int i, int j, ...)" function returns the square neighborhood centered on the "pixel (i, j)" of the image.
+The "patch (int i, int j, ...)" function returns the square neighborhood centered on the "pixel (i, j)" of the image.
 
 # Parallel implementation with cuda
 In the parallel implementation the complexity from N^4 drops to N^2 through the functions __global__ void CudaPatch() and __global__ void nonLocalMeans(). These functions replace the for loops in the main where the patching and denoising were done.
