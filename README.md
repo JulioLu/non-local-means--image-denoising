@@ -2,14 +2,6 @@
 
 The main idea of this problem is to denoise images with Gaussian noise input, using the non-local-mean algorithm. The non-local means filtering takes a mean of all pixels in the image, weighted by how similar these pixels are to the target pixel.
 
-denoiseImagef (x) = SUM {w (x.y) * noisedImage (y)}
-where the weighted array w shows the similarity of the neighborhood of one pixel x from all
-the other y neighborhoods. Where:
- w (x.y) = 1 / Z (x) * exp {- (|| P (i) -P (j) || ^ 2) * G (a) / sigma ^ 2}
-with P (i) and P (j) are the square neighborhoods with centers i and j pixels respectively.
- G a normalizing factor.
- G (a) a table of neighborhood weights (patches) relative to their central pixel.
-
 # Serial implementation
 The denoise() function is called N * N times in main () where each time it accepts as
  an argument a pixel of the image with Gaussian noise and gradually through the weights w calculates and returns the corresponding pixel that will have the denoised image. 
