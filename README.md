@@ -12,5 +12,4 @@ The denoise() function is called N * N times in main () where each time it accep
 In the parallel implementation the complexity from N^4 drops to N^2 through the functions __global__ void CudaPatch() and __global__ void nonLocalMeans(). These functions replace the for loops in the main where the patching and denoising were done.
 
 # Experimental results
-![Screenshot_107](https://user-images.githubusercontent.com/77286926/137591831-d5c1a005-579b-4813-8f36-2a0fef394eb2.png)
-![Screenshot_106](https://user-images.githubusercontent.com/77286926/137591872-960cfcc0-a5b2-4afa-8d41-28d35422f85b.png)
+![εικόνα](https://user-images.githubusercontent.com/77286926/137591967-294bc8ef-46f7-4148-99c1-a48aebe8c962.png)
