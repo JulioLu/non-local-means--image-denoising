@@ -8,4 +8,4 @@ The denoise() function is called N * N times in main () where each time it accep
 -The "patch (..., int i, int j, ...)" function returns the square neighborhood centered on the "pixel (i, j)" of the image.
 
 # Παράλληλη υλοποίηση με cuda
-In the parallel implementation to accelerate the process are used the functions __global__ void CudaPatch() and __global__ void nonLocalMeans(). these two functions replace the for loops that called the patch() and denoise() functions which became __devise__ functions. 
+In the parallel implementation to accelerate the process are used the functions __global__ void CudaPatch() and __global__ void nonLocalMeans(). these two functions replace the for loops that calls the patch() and denoise() functions which became __devise__ functions. 
