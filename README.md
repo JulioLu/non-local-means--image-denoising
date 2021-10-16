@@ -13,3 +13,4 @@ In the parallel implementation the complexity from N^4 drops to N^2 through the 
 
 # Experimental results
 ![Screenshot_107](https://user-images.githubusercontent.com/77286926/137591831-d5c1a005-579b-4813-8f36-2a0fef394eb2.png)
+![Screenshot_106](https://user-images.githubusercontent.com/77286926/137591872-960cfcc0-a5b2-4afa-8d41-28d35422f85b.png)
